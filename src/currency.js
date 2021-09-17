@@ -7,8 +7,8 @@ export default class CurrencyExchange {
         }
         return response.json();
       })
-      .catch(function (Error) {
-        return Error;
+      .catch(function (error) {
+        return error;
       });
   }
 }
