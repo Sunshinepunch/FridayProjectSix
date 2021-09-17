@@ -5,6 +5,12 @@ body {
 
 .input-field {
   position: relative;
-  margin-top: 50%;
+  margin-top: 20%;
+  margin-left: 40%;
+}
+
+h2, p {
+  position:relative;
+  margin-top: 10%;
   margin-left: 40%;
 }
