@@ -9,11 +9,11 @@ module.exports = {
   },
   devtool: 'eval-source-map',
   devServer: {
-    contentBase: './dist'
+    static: './dist'
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Shape Tracker',
+      title: 'FridayProjectSix',
       template: './index.html',
       inject: 'body'
     })
